@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Заказ и доставка — Арахномания</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Арахномания</div>
+    <input type="text" class="search" placeholder="Поиск" />
+    <div class="contact">
+      <span>+1 234 567 89 10</span>
+    </div>
+    <div class="cart">
+      <a href="#">Корзина</a>
+    </div>
+  </header>
+  <nav>
+    <a href="aquariums.html">Аквариумы</a>
+    <a href="terrarium.html">Террариумистика</a>
+    <a href="about.html">О нас</a>
+    <a href="delivery.html">Заказ и доставка</a>
+    <a href="favorites.html">Избранные</a>
+    <a href="support.html">Поддержка</a>
+  </nav>
+
+  <main>
+    <h1 style="display: inline;">Заказ и доставка</h1>
+    <p style="text-align: center; margin-left: 10%; margin-right: 10%;">Вы можете оформить заказ через сайт или по телефону. Мы доставляем по всей России и странам СНГ. Поддерживаем оплату онлайн и при получении. Живые животные доставляются в специальных контейнерах с соблюдением всех норм.</p>
+  </main>
+
+  <main>
+    <button onclick="window.location.href='index.html'">На главную</button>
+  </main>
+  <h3 style="text-align: center;">Укажите данные для доставки</h3>
+  <div style="text-align: center; margin: 20px;">
+    <label for="address">Адрес: </label><br>
+    <input type="text" id="address" name="address" placeholder="Ваш адрес" style="margin-bottom: 10px; padding: 5px; width: 200px;"><br>
+    
+    <label for="delivery-phone">Телефон: </label><br>
+    <input type="tel" id="delivery-phone" name="delivery-phone" placeholder="Ваш телефон" style="margin-bottom: 10px; padding: 5px; width: 200px;"><br>
+    
+    <button onclick="alert('Мы приняли ваш заказ, ждите ответного звонка');" style="background-color: #f5a623; border: none; padding: 10px 20px; cursor: pointer;">Отправить</button>
+  </div>
+
+  <footer>
+    <p>©Зоомагазин "Арахномания", 2020–2025</p>
+  </footer>
+
+</body>
+</html>

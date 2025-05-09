@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Арахномания</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">Арахномания</div>
+    <input type="text" class="search" placeholder="Поиск" />
+    <div class="contact">
+      <span>+1 234 567 89 10</span>
+    </div>
+    <div class="cart">
+      <a href="#">Корзина</a>
+    </div>
+  </header>
+  <nav>
+    <a href="aquariums.html">Аквариумы</a>
+    <a href="terrarium.html">Террариумистика</a>
+    <a href="about.html">О нас</a>
+    <a href="delivery.html">Заказ и доставка</a>
+    <a href="favorites.html">Избранные товары</a>
+    <a href="support.html">Поддержка</a>
+  </nav>
+
+  <main>
+    <aside>
+      <div class="filter">
+        <h3>Фильтр товаров</h3>
+        <label>Цена 1000-40000р.</label>
+        <input type="range" min="1000" max="40000" id="priceRange" />
+      </div>
+      <div class="recently">
+        <h3>
+          Brachypelma Boehmei L3-4
+          Недавно просмотренные</h3>
+        <p>3000 р.</p>
+        <button onclick="addToCart('Brachypelma Boehmei', 3000)">В корзину</button>
+      </div>
+    </aside>
+    <section class="products">
+      <button class="popular">Самый популярный товар</button>
+      <div class="product-card">
+        <img src="assets/images/spider1.jpg" />
+        <div>
+          <h4>Brachypelma Boehmei L3-4</h4>
+          <p>3000 р.</p>
+          <button onclick="addToCart('Brachypelma Boehmei', 3000)">В корзину</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="assets/images/spider2.jpg" />
+        <div>
+          <h4>Chromatopelma cyaneopubescens самка</h4>
+          <p>5900 р.</p>
+          <button onclick="addToCart('Chromatopelma cyaneopubescens', 5900)">В корзину</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="assets/images/spider3.jpg" />
+        <div>
+          <h4>Tiltoсatl albopilosus (самка 3см.)</h4>
+          <p>4500 р.</p>
+          <button onclick="addToCart('Tiltoсatl albopilosus', 4500)">В корзину</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>©Зоомагазин "Арахномания", 2020–2025</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
