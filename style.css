@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 15px;
+}
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+.search {
+  flex-grow: 40em;
+  margin: 10 10px;
+  padding: 10px;
+}
+nav {
+  background-color: #634436;
+  padding: 15px;
+  display: flex;
+  gap: 40px;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+main {
+  display: flex;
+  padding: 30px;
+  background-color: #e0d6d3;
+}
+aside {
+  width: 180px;
+  margin-right: 20px;
+}
+.filter,
+.recently,
+.ad {
+  background: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.products {
+  flex-grow: 5;
+  background: #5c443a;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+}
+.product-card {
+  display: flex;
+  background: white;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.product-card img {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+}
+.product-card div {
+  padding: 10px;
+}
+button {
+  background: orange;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #ddd;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #cfc0c0; 
+  padding: 15px 0;
+  text-align: center;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
